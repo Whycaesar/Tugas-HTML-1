@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML, CSS & JavaScript</title>
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+</head>
+
+<style>
+body{
+	background-color: #faebd7;
+	box-sizing: border-box;
+	font-family: 'Courgette', cursive;
+	font-weight: 500;
+	margin: 50px 150px;
+	text-align: justify;
+}
+h1{font-size: 40px;}
+h2{font-size: 36px;}
+h3{font-size: 32px;}
+p{font-size: 22px;}
+li{font-size: 18px;}
+a{color: red;}
+button{
+	background-color: #999999;
+	box-shadow: 6px 6px black;
+	font-family: 'Courgette', cursive;
+	font-size: 22px;
+	font-weight: 900;
+	height: 70px;
+	outline: none;
+	padding: 15px;
+}
+
+button:hover{
+	box-shadow: 6px 6px #faebd7;
+}
+
+#judul{
+	color: black;
+	text-decoration: none;
+}
+
+.html{display: none;}
+
+.css{display: none;}
+
+.javascript{display: none;}
+
+.footer{
+	margin-top: 100px;
+}
+</style>
+
+<body>
+	<div class="header">
+		<a onclick="stop()" id="judul" href="#"><h1>HTML, CSS & JavaScript</h1></a>
+	</div>
+	<div class="content">
+			<h2>HTML</h2> <button onclick="html()">Just Click</button>
+		<div class="html" id="html">
+				<p>
+				<b>Hyper Text Markup Languange</b> (HTML) adalah sebuah bahasa yang digunakan untuk membuat sebuah halaman web, menampilkan berbagai informasi di dalam sebuah web internet dan pemformatan hiperteks sederhana yang ditulis dalam berkas format ASCII agar dapat menampilkan tampilan wujud yang terintegrasi. Dalam kata lain, berkas yang dibuat dalam perangkat lunak pengolahan kata dan disimpan dalam format <a href="#">ASCII</a> normal sehingga menjadi halaman web dengan perintah-perintah HTML. Bermula dari sebuah bahasa yang sebelumnya banyak digunakan didunia penerbitan. HTML adalah sebuah standar yang digunakan secara luas untuk menampilkan halaman web. HTML saat ini merupakan standar internet yang didefinisikan dan dikendalikan penggunannya oleh <a href="#">World Wide Web Consortium</a> (W3C). HTML dibuat oleh kolaborasi <b>Caillau TIM & Berners-Lee Robert</b> ketika mereka bekerja di CERN (lembaga penelitian fisika energi tinggi di Jenewa) pada tahun 1989.
+		 		</p>
+		 	<h3>Sejarah</h3>
+		 		<p>
+					Berawal pada tahun 1980 seorang ahli fisika, <a href="#">Tim Berners-Lee</a> dan juga seorang kontraktor CERN (Organisasi Eropa untuk Riset Nuklir) mengusulkan dan menyusun ENQUIRE, sebuah sistem untuk para ilmuan dalam membagi dokumen. Sembilan tahun kemudian, Berners-Lee mempublikasikan HTML dan menulis jaringan beserta perangkat lunaknya di akhir 1990. Pada tahun yang sama, <a href="#">Berners-Lee & Robert Cailliau</a>, insinyur sistem data CERN berkolaborasi dalam sebuah permintaan untuk pendanaan, namun tidak diterima secara resmi oleh CERN.
+					Penjelasan pertama yang dibagi untuk umum "Tanda HTML", pertama kali disebutkan di Internet oleh Tim Berners-Lee pada akhir tahun 1991. Tanda ini menggambarkan 18 elemen awal mula, versi sederhana dari HTML. Kecuali untuk tag <a href="#">Hyperlink</a>.
+		 		</p>
+		 	<h3>Sejarah versi HTML</h3>
+		 	
+			<ul><b>24 November 1995</b></ul>
+				<p>
+					HTML 2.0 dipublikasikan sebagai IETF <a href="#">RFC 1866</a>. Penambahan ini memperbanyak kamampuan untuk:
+					<li>November 1995 <a href="#">RFC 1967</a> (Mengunggah file berdasarkan bentuk)</li>
+					<li>Mei 1996 <a href="#">RFC 1942</a> (Tabel)</li>
+					<li>Agustus 1996 <a href="#">RFC 1980</a> (Peta gambar berbasis klien)</li>
+					<li>Januari 1997 <a href="#">RFC 2070</a> (Internasionalisasi)</li>
+			 	</p>
+			 <ul><b>14 Januari 1997</b></ul>
+			 	<p>
+					HTML 3.2 dipublikasikan sebagai <a href="#">Konsorsium World Wide Web</a>, versi ini merupakan versi pertama yang dikembangkan dan distandarisasi secara khusus oleh W3C sebagaimana IETF sudah menutup kelompok kerja HTMLnya pada 12 September 1996.  
+			 	</p>
+			 <ul><b>18 Desember 1997</b></ul>
+			 	<p>
+				 	HTML 4.0 dipublikasikan sebagai rekomendasi W3C. Versi ini memberikan tiga variasi:
+				 	<li>Strict, dimana unsur-unsur yang tidak berlaku lagi dilarang.</li>
+				 	<li>Trasitional, dimana unsur-unsur yang tidak berlaku lagi diperbolehkan.</li>
+				 	<li>Frameset, yang sebagian besar hanya elemen frame terkait diperbolehkan.</li>
+			 	</p>
+			 <ul><b>28 Oktober 2014</b></ul>
+			 	<p>
+			 	HTML 5 direkomendasikan oleh World Wide Web Consortium(W3C).
+			 	</p>
+			<h3>Markah/Tanda</h3>
+				<p>
+				Secara garis besar, terdapat 4 jenis elemen di HTML:
+				<li><i>Struktural</i>. Tanda yang menentukan level atau tingkatan dari sebuah tulisan.</li>
+				<li><i>Presentasional</i>. Tanda yang menentukan tampilan dari sebuah tulisan tidak perduli dengan level tulisan tersebut.</li>
+				<li><i><a href="#">Hiperteks</a></i>. Tanda yang menunjukkan pranala ke bagian dari dokumen tersebut atau pranalan ke dokumen lain.</li>
+				<li><i>Widget</i>. Elemen yang membuat objek-objek lain seperti tombol(button), list dan garis horizontal.</li>
+				</p>
+				<hr>
+
+			</div>
+
+			<h2>CSS</h2> <button onclick="css()">Just Click</button>
+		<div class="css" id="css">
+				<p>
+					<b>Cascading Style Sheet (CSS)</b> merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman. 	<br>
+					Sama halnya <i>styles</i> dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa <i>style</i>, misalnya <i>heading, subbab, bodytext, footer, images dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa berkas(file). Pada umumnya CSS digunakan untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML.</i>
+				</p>
+			<h3>Sejarah CSS</h3>
+				<p>
+					Nama CSS didapat dari fakta bahwa setiap deklarasi <i>style</i> yang berbeda dapat diletakkan secara berurutan, yang kemudian membentuk ayah dan anak (parent-child) pada setiap style. CSS sendiri merupakan sebuah teknologi internet yang direkomendasikan oleh <a href="#">World Wide Web Consortium (W3C)</a> pada tahun <a href="#">1996</a>.
+				</p>
+			<h3><u><b>Versi</b></u></h3>
+				<p>
+					Untuk saat ini terdapat 3 versi CSS, yaitu <a href="#">CSS1, CSS2</a> dan <a href="#">CSS3</a>. CSS1 dikembangkan berpusat pada pemformatan HTML, CSS2 dikembangkan untuk memenuhi kebutuhan terhadap format dokumen agar bisa ditampilkan di printer. Sedangkan CSS3 adalah versi terbaru dari CSS yang mampu melakukan banyak hal dalam desain website. CSS2 mendukung penentuan posisi konten, downloadable, huruf font, tampilan pada table/table layout dan media tipe untuk printer. Kehadiran versi CSS yang ketiga diharapkan lebih baik dari versi yang pertama dan kedua. <br>
+					CSS3 juga dapat melakukan animasi pada halaman website, diantaranya animasi warna hingga animasi 3D. Dengan CSS3 desainer lebih dimudahkan dalam hal kompabilitas websitenya pada smartphone dengan menggunakan fitur baru yakni media query. selain itu banyak fitur baru pada CSS3 seperti: multiple background, border-radius, drop-shadow, border image, CSS Math dan CSS Object Model.
+				</p>
+			<h3><u><b>Sifat CSS</b></u></h3>
+				<p>
+					Ada dua sifat CSS yakni internal dan eksternal. Jika internal yang dipilih, maka skrip itu dimasukkan secara langsung ke halaman <a href="#">website</a> yang akan didesain. Kalau halaman web yang lain akan didesain dengn model yang sama, maka skrip CSS itu harus dimasukkan lagi ke dalam halaman web yang lain itu. Sedangkan sifat yang kedua adalah eksternal dimana skrip CSS dipisahkan dan diletakkan dalam berkas khusus, sehingga dibutuhkan semacam tautan menuju berkas CSS itu jika halaman web yang didesain akan dibuat seperti <a href="#">model</a> yang ada di skrip tersebut.
+				</p> <hr>
+		</div>
+			<h2>JavaScript</h2>
+			<button onclick = "java()">Just Click</button>
+		<div class="javascript" id="javascript">
+				<p>
+					Adalah bahasa pemrograman tingkat tinggi dan dinamis, Javascript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Internet Explorer(IE), Mozilla, Firefox, Netscpae dan opera.
+				</p>
+			<h3>Sejarah</h3>
+				<p>
+						JavaScript pertama dikembangkan oleh <a href="#">Brendan Eich</a> dari Netscape dibawah nama <i>Mocha</i>, yang nantinya namanya diganti menjadi <i>LiveScript</i> dan akhirnya menjadi <i>JavaScript</i>. <br>
+						Navigator sebelumnya telah mendukung Java untuk lebih bisa dimanfaatkan para programmer yang non-java. Maka dikembangkanlah bahasa program Live-Script untuk mengakomodasi hal tersebut. Bahasa inilah yang akhirnya berkembang menjadi JavaScript, walaupun tidak ada hubungan antara Java dan JavaScript.
+				</p>
+			<h3>Penulisan JavaScript</h3>
+				<ul>Terdapat beberapa macam penulisan yang dapat dilakukan di JavaScript.</ul>
+				<li>Skrip di <i>Head.</i></li>
+				<li>Skrip di <i>body.</i></li>
+				<li>Skrip <i>eksternal.</i></li>
+		</div>
+	</div>
+	<div class="footer">
+		<h5>copyright &#169; By Whycaesar 2017</h5>
+	</div>
+
+<script>
+
+function html(){
+	document.getElementById("html").style.display = "block";
+	document.getElementById("css").style.display = "none";
+	document.getElementById("javascript").style.display = "none";
+}
+function css(){
+	document.getElementById("html").style.display = "none";
+	document.getElementById("css").style.display = "block";
+	document.getElementById("javascript").style.display = "none";
+}
+function java(){
+	document.getElementById("html").style.display = "none";
+	document.getElementById("css").style.display = "none";
+	document.getElementById("javascript").style.display = "block";
+}
+
+function stop(){
+	document.getElementById("html").style.display = "none";
+	document.getElementById("css").style.display = "none";
+	document.getElementById("javascript").style.display = "none";
+}
+
+</script>
+</body>
+</html>
